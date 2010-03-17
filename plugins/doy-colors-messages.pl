@@ -166,6 +166,7 @@ recolor qr/You are enveloped in a cloud of gas./ => "red";
 # negative status effects {{{
 recolor qr/Oh wow!  Great stuff!/ => "red";
 recolor qr/You (reel|stagger)\.\.\./ => "red";
+recolor qr/You are frozen/ => "red";
 recolor qr/You feel somewhat dizzy./ => "red";
 recolor qr/You feel feverish./ => "red";
 recolor qr/You can't see in here./ => "red";
@@ -235,4 +236,5 @@ recolor qr/You feel a strange vibration [^.?!]*./ => "yellow";
 
 # misc {{{
 recolor  qr/Elbereth/i => "purple";
+recolor  qr/E(l(b(e(r(et?)?)?)?)?)?(?=\"\.)/i => "blue";
 # }}}
